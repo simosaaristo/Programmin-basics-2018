@@ -6,8 +6,8 @@ namespace IfTask2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Program solves if number is odd or even.");
-            Console.Write("Enter number: ");
+            Console.WriteLine("Ohjelma selvittää onko luku parillinen vai pariton.");
+            Console.Write("Syötä numero: ");
             string userInput = Console.ReadLine();
             int number = 0;
             bool isNumber = int.TryParse(userInput, out number);
